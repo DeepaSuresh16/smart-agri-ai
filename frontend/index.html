@@ -46,7 +46,7 @@
 
 <script>
 function predict(){
-  fetch("YOUR_NGROK_LINK/predict_crop", {
+  fetch(  "https://tabetha-posteruptive-misty.ngrok-free.dev/predict_crop", {
     method: "POST",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify({
